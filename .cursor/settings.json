@@ -1,0 +1,50 @@
+{
+  "editor": {
+    "formatOnSave": true,
+    "tabSize": 2,
+    "insertSpaces": true,
+    "wordWrap": "on",
+    "rulers": [80, 100],
+    "bracketPairColorization": {
+      "enabled": true
+    }
+  },
+  "typescript": {
+    "preferences": {
+      "includePackageJsonAutoImports": "auto",
+      "includeCompletionsForModuleExports": true,
+      "includeCompletionsWithSnippetText": true
+    },
+    "suggest": {
+      "autoImports": true,
+      "includeCompletionsForModuleExports": true
+    }
+  },
+  "tailwindCSS": {
+    "emmetCompletions": true,
+    "includeLanguages": {
+      "typescript": "javascript",
+      "typescriptreact": "javascript"
+    }
+  },
+  "files": {
+    "associations": {
+      "*.tsx": "typescriptreact",
+      "*.ts": "typescript"
+    },
+    "exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.next": true,
+      "**/out": true
+    }
+  },
+  "search": {
+    "exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.next": true,
+      "**/out": true
+    }
+  }
+} 

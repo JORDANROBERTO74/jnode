@@ -1,0 +1,83 @@
+{
+  "projectContext": "VasCruz Group LLC - Commercial intermediation website built with Next.js 14, TypeScript, Tailwind CSS, shadcn/ui, and Framer Motion. The project uses next-intl for internationalization (ES/EN) and follows specific UI development patterns.",
+  "codingGuidelines": {
+    "framework": "Next.js 14 with App Router",
+    "styling": "Tailwind CSS with custom design system",
+    "uiLibrary": "shadcn/ui + Radix UI",
+    "animations": "Framer Motion",
+    "i18n": "next-intl (ES/EN)",
+    "patterns": [
+      "Use 'use client' directive for client components",
+      "Implement motion animations with Framer Motion",
+      "Extract data from messages using useMessages hook",
+      "Follow responsive design with mobile-first approach",
+      "Use standard CSS classes from the design system",
+      "Include fallback for missing data",
+      "Apply consistent icon mapping patterns"
+    ]
+  },
+  "componentStructure": {
+    "baseTemplate": {
+      "imports": [
+        "\"use client\";",
+        "import { motion } from \"framer-motion\";",
+        "import { [ICONS] } from \"lucide-react\";",
+        "import { [UI_COMPONENTS] } from \"@/components/ui/[component]\";",
+        "import { useMessages } from \"next-intl\";"
+      ],
+      "dataExtraction": "const messages = useMessages(); const data = (messages as any)?.[section]?.[subsection];",
+      "fallback": "Return fallback UI if data is not available",
+      "structure": "Section with container, responsive grid, and motion animations"
+    }
+  },
+  "legalPagesStructure": {
+    "description": "Legal pages follow a different UI pattern based on professional legal document standards",
+    "layout": {
+      "header": {
+        "topBar": "bg-primary text-primary-foreground py-2",
+        "mainNav": "bg-primary/90 text-primary-foreground py-4",
+        "pageBanner": "bg-primary text-primary-foreground py-8 lg:py-12"
+      },
+      "content": {
+        "container": "max-w-4xl mx-auto px-4 py-8 lg:py-12",
+        "typography": {
+          "title": "text-3xl lg:text-4xl font-bold text-foreground mb-4",
+          "subtitle": "text-lg text-muted-foreground mb-8",
+          "sectionTitle": "text-xl lg:text-2xl font-semibold text-foreground mt-8 mb-4",
+          "bodyText": "text-foreground leading-relaxed mb-4",
+          "listItem": "text-foreground mb-2"
+        },
+        "sections": {
+          "spacing": "mb-8",
+          "listSpacing": "mb-6",
+          "contactInfo": "bg-muted/30 p-6 rounded-lg mt-8"
+        }
+      }
+    },
+    "contentPatterns": {
+      "introduction": "Brief overview of the legal document purpose",
+      "sections": "Clear headings with detailed explanations",
+      "bulletPoints": "Use for lists of information, rights, or procedures",
+      "contactSection": "Prominent contact information with multiple channels",
+      "lastUpdated": "Display last update date prominently"
+    }
+  },
+  "cssStandards": {
+    "sectionClasses": {
+      "hero": "-mt-[30px] lg:-mt-[64px] h-full relative overflow-hidden bg-gradient-to-br from-background via-background to-muted/20",
+      "content": "py-16 lg:py-20 bg-background",
+      "stats": "py-20 bg-gradient-to-r from-primary to-primary/90",
+      "process": "py-20 bg-muted/30",
+      "legal": "py-8 lg:py-12 bg-background"
+    },
+    "typography": {
+      "mainTitle": "text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground",
+      "sectionTitle": "text-2xl lg:text-3xl font-bold text-foreground",
+      "subtitle": "text-xl text-muted-foreground",
+      "bodyText": "text-muted-foreground text-sm",
+      "legalTitle": "text-3xl lg:text-4xl font-bold text-foreground mb-4",
+      "legalSectionTitle": "text-xl lg:text-2xl font-semibold text-foreground mt-8 mb-4",
+      "legalBodyText": "text-foreground leading-relaxed mb-4"
+    }
+  }
+} 
