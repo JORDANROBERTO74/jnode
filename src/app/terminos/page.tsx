@@ -192,10 +192,10 @@ export default function TerminosPage() {
             <p>
               For any questions about these Terms you may contact us at{" "}
               <a
-                href="mailto:contacto@jnode.digital"
+                href="mailto:jordanroberto74@gmail.com"
                 className="text-primary underline hover:no-underline"
               >
-                contacto@jnode.digital
+                jordanroberto74@gmail.com
               </a>
               .
             </p>

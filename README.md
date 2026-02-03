@@ -62,8 +62,8 @@ When integrating Stripe, consider:
 
 ## Contact on the site
 
-- **Sample email:** `contacto@jnode.digital` (replace in `src/app/page.tsx` and footer with your real email).
-- **WhatsApp:** the link uses a placeholder number; update it in `src/app/page.tsx` with your number including country code (without `+`).
+- **Contact email:** `jordanroberto74@gmail.com`
+- **WhatsApp:** +591 78154345 (link in `src/app/page.tsx`).
 
 ## License
 

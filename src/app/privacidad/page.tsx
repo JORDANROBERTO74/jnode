@@ -40,10 +40,10 @@ export default function PrivacidadPage() {
               &quot;the Agency&quot;) is J-NODE Digital Solutions. You may contact
               us at{" "}
               <a
-                href="mailto:contacto@jnode.digital"
+                href="mailto:jordanroberto74@gmail.com"
                 className="text-primary underline hover:no-underline"
               >
-                contacto@jnode.digital
+                jordanroberto74@gmail.com
               </a>{" "}
               for any privacy-related questions.
             </p>
@@ -176,10 +176,10 @@ export default function PrivacidadPage() {
             <p className="mt-4">
               To exercise these rights, write to us at{" "}
               <a
-                href="mailto:contacto@jnode.digital"
+                href="mailto:jordanroberto74@gmail.com"
                 className="text-primary underline hover:no-underline"
               >
-                contacto@jnode.digital
+                jordanroberto74@gmail.com
               </a>
               . You have the right to lodge a complaint with the data protection
               supervisory authority in your country.
@@ -245,10 +245,10 @@ export default function PrivacidadPage() {
               For any questions about how we process your data or to exercise
               your rights, you may contact us at{" "}
               <a
-                href="mailto:contacto@jnode.digital"
+                href="mailto:jordanroberto74@gmail.com"
                 className="text-primary underline hover:no-underline"
               >
-                contacto@jnode.digital
+                jordanroberto74@gmail.com
               </a>
               .
             </p>

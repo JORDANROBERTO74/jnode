@@ -332,11 +332,11 @@ export default function HomePage() {
                 asChild
               >
                 <a
-                  href="mailto:contacto@jnode.digital?subject=Quote%20from%20website"
+                  href="mailto:jordanroberto74@gmail.com?subject=Quote%20from%20website"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Email contacto@jnode.digital
+                  Email jordanroberto74@gmail.com
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
@@ -347,7 +347,7 @@ export default function HomePage() {
                 asChild
               >
                 <a
-                  href="https://wa.me/1234567890?text=Hi,%20I%20would%20like%20to%20request%20a%20quote"
+                  href="https://wa.me/59178154345?text=Hi,%20I%20would%20like%20to%20request%20a%20quote"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -432,10 +432,10 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
                   <a
-                    href="mailto:contacto@jnode.digital"
+                    href="mailto:jordanroberto74@gmail.com"
                     className="hover:text-foreground"
                   >
-                    contacto@jnode.digital
+                    jordanroberto74@gmail.com
                   </a>
                 </li>
               </ul>
